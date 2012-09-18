@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="reset">リセット</string>
+	<string name="app_name">ラソイド</string>
+	<string name="history">履歴</string>
+	<string name="char_card_dump">体力：%1$d\n回避：%2$d\n決死判定：%3$d\n</string>
+	<string name="spell_card_dump">呪力：%1$d\nレベル：%2$s\n攻撃：%3$d　迎撃：%4$d\n命中：%5$d　種類：%6$s\n</string>
+	<string name="support_card_dump">呪力：%1$d\nレベル：%2$s\n配置：%3$s\n</string>
+	<string name="event_card_dump">呪力：%1$d\nレベル：%2$s\n使用：%3$s\n</string>
+	<string name="spread">拡散</string>
+	<string name="concentrate">集中</string>
+	<string name="normal">通常</string>
+	<string name="leader">リーダー</string>
+	<string name="spell">スペル</string>
+	<string name="scene">シーン</string>
+	<string name="fill">充填</string>
+	<string name="battle">戦闘</string>
+	<string name="activate">起動</string>
+	<string name="app_counter">宴カウンター</string>
+	<string name="help">画像を使う場合、/sdcard/Rasoid/icon/にbig画像を置いて下さい。</string>
+	<string name="counter">カウンター</string>
+	<string name="cardviewer">宴カードビュアー</string>
+	<string name="watcher">宴FFO観戦</string>
+	<string name="bg">画像変更</string>
+	<string name="defbg">デフォルト画像に戻す</string>
+</resources>

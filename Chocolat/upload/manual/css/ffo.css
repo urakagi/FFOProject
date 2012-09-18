@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+a.param {
+	color:#32cd32;
+	font-style:normal;
+	text-decoration:underline;
+}
+a:link.param {
+	color:#32cd32;
+	font-style:normal;
+	text-decoration:underline;
+}
+a:visited.param {
+	color:#32cd32;
+	text-decoration:underline;
+}
+a:hover.param {
+	color:#ff00ff;
+	font-style:normal;
+	text-decoration:underline;
+}
+a:active.param {
+	text-decoration:none;
+}
+h4 {
+	background-color:#6699ff;
+	color:#ffffff;
+	font-weight: bold;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+h1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: xx-large;
+	font-weight: bold;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #660000;
+}
+p {
+	line-height: 130%;
+}
+li {
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	line-height: 130%;
+}
+dd {
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	line-height: 130%;
+}
+div.param {
+	margin-top:3pt;
+	margin-bottom:3pt;
+	line-height: 130%;
+	font-size:11pt;
+}
+div.param1 {
+	margin-top: 4pt;
+	margin-bottom: 4pt;
+	margin-left: 7pt;
+	line-height: 130%;
+	font-size:11pt;
+}
+div.param2 {
+	margin-top: 4pt;
+	margin-bottom: 4pt;
+	line-height: 130%;
+}
+div.param3 {
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-size:10pt;
+}
+div.param4 {
+	margin-top: 4pt;
+	margin-bottom: 4pt;
+	margin-left: 7pt;
+	font-size:11pt;
+}
+img {
+	border: 3px double #000000;
+}

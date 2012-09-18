@@ -1,0 +1,31 @@
+|Rank|Name|Points|Opp%|Deck|
+|1|shinonome|9|0.444|[[L>テスト shinonome]]|
+|2|biku|6|0.554|[[L>テスト biku]]|
+|3|seppei|6|0.333|[[L>テスト seppei]]|
+|4|Urakagi|6|0.332|[[L>テスト Urakagi]]|
+|5|def|3|0.777|[[L>テスト def]]|
+|6|kotti2|3|0.666|[[L>テスト kotti2]]|
+|7|kakinotan|3|0.665|[[L>テスト kakinotan]]|
+|8|Kouun|0|0.555|[[L>テスト Kouun]]|
+
+
+
+-[[1位　shinonome（Ｌ）>テスト shinonome]]
+-[[2位　biku（Ｌ）>テスト biku]]
+-[[3位　seppei（Ｌ）>テスト seppei]]
+-[[4位　Urakagi（Ｌ）>テスト Urakagi]]
+-[[5位　def（Ｌ）>テスト def]]
+-[[6位　kotti2（Ｌ）>テスト kotti2]]
+-[[7位　kakinotan（Ｌ）>テスト kakinotan]]
+-[[8位　Kouun（Ｌ）>テスト Kouun]]
+
+
+
+8位 Kouun 0pts Opp%:0.555
+7位 kakinotan 3pts Opp%:0.665
+6位 kotti2 3pts Opp%:0.666
+5位 def 3pts Opp%:0.777
+4位 Urakagi 6pts Opp%:0.332
+3位 seppei 6pts Opp%:0.333
+2位 biku 6pts Opp%:0.554
+1位 shinonome 9pts Opp%:0.444

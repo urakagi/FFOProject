@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/reset"
+        android:title="@string/reset"/>
+    <item
+        android:id="@+id/history"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/bg"
+        android:title="@string/bg">
+    </item>
+    <item
+        android:id="@+id/defbg"
+        android:title="@string/defbg">
+    </item>
+    
+</menu>

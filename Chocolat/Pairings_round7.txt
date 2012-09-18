@@ -1,0 +1,5 @@
+Table1 b VS d Host:b
+Table2 h VS c Host:h
+Table3 a VS f Host:a
+Table4 e VS i Host:e
+Table5 g VS BYE Host:PROXY
