@@ -1647,6 +1647,11 @@ public class GameCore implements IAutosCallback, ICardLabelCallback, ChocolatsAr
             ui.noLogPlayMessage(FTool.parseLocale(283, gi.myName(), String.valueOf(amount)));
         } else {
             ui.playMessage(FTool.parseLocale(283, gi.myName(), String.valueOf(amount)) + extraMessage);
+            if (gi.getScene().isNo(53) && gi.isDamageDealtable(EPlayer.ICH)) {
+                for (int i=0;i<amount;i++) {
+                    adjustHP(-1, true, true, " - " + gi.getScene().getName());
+                }
+            }
         }
         actionDone();
     }

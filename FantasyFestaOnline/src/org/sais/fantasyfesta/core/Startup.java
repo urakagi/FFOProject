@@ -41,7 +41,7 @@ public class Startup extends javax.swing.JFrame implements ITitleUI {
 
     private static final boolean DEBUG = false;
     //
-    public static final String VERSION = "9.1.15";
+    public static final String VERSION = "9.1.16";
     //
     private boolean noupdate = false;
     private HostSocketThread mHostSocketThread;
