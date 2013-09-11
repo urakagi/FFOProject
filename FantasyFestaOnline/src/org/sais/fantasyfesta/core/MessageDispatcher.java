@@ -497,8 +497,15 @@ abstract public class MessageDispatcher {
 
         Card card;
         switch (from) {
-            case HAND:
+                // FIXME bad code for NO.1814 effect 
             case DISCARD_PILE:
+                card = CardDatabase.getInfo(cardNo).createCard(newController, orgController, 
+            			gi().getField(orgController).getDistrcit(from));
+            	if (gi().getScene().getCardNo() == 1814 && (card instanceof SpellCard)) {
+            		SpellMoveTriggerManager.exec((SpellCard) card, core(), gi(), from, to);
+            	}
+            	break;
+            case HAND:
             case LIBRARY:
                 card = CardDatabase.getInfo(cardNo).createCard(newController, orgController, 
                         gi().getField(orgController).getDistrcit(from));
