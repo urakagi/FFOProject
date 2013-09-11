@@ -528,6 +528,10 @@ public class BattleSystem {
                             ov.disableBasicAbilities();
                         }
                         break;
+                    case 411:
+                        if (f.countSupport(412) + f.countSupport(413) < 1)
+                    		--v.hit;
+                    	break;
                 }
             }
         }
