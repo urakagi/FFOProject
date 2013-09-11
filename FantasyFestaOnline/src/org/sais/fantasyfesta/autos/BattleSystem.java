@@ -2141,6 +2141,11 @@ public class BattleSystem {
         if (f.getBattleCard().getAttachedOrNullObject().isNo(9100)) {
             ret = 1;
         }
+        if ((f.getActivated().hasCard(4208) || f.getBattleCard().isNo(4208))
+        		&& !f.getBattleCard().isAttached()
+        		&& f.getBattleCard().getInfo().getCharId() == 42) {
+        	ret = 0;
+        }
         return ret;
     }
 
