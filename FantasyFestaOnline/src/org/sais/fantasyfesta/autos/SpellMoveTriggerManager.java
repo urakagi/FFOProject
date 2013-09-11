@@ -69,6 +69,16 @@ public class SpellMoveTriggerManager {
                     caller.adjustHP(1, true, true, " - " + gi.getScene().getName());
                 }
                 break;
+            case 1814:
+                if (from == ERegion.DISCARD_PILE && (to == EMoveTarget.ACTIVATED || to == EMoveTarget.RESERVED)) {
+            		Effect.ManualModification e = new Effect.ManualModification();
+            		EPlayer pl = card.getController();
+            		e.m_atk.put(pl, 1);
+            		e.m_hit.put(pl, 1);
+            		e.m_icp.put(pl, 1);
+            		gi.getEffects().add(e);
+            	}
+            	break;
         }
     }
 }
