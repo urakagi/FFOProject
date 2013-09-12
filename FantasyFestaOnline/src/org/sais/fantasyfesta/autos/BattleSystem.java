@@ -196,7 +196,14 @@ public class BattleSystem {
                         }
                         break;
                     case 9024:
-                        v.leader_targetability.sealEvent();
+                        if (f.getLeaderAttachment().hasCard(9024)) {
+                    		v.leader_targetability.sealEvent();
+                    		v.leader_targetability.hexproofEvent();
+                    	}
+                    	if (of.getLeaderAttachment().hasCard(9024)) {
+                    		ov.leader_targetability.sealEvent();
+                    		ov.leader_targetability.hexproofEvent();
+                    	}
                         break;
                     case 521:
                         v.spell_targetability.shroudBoth();
