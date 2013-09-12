@@ -67,8 +67,13 @@ public class UseEventAbilityTriggerManager {
 
             switch (c.getCardNo()) {
                 case 3614:
-                    if (e.type.isEvent() && source.isIchControl() && gi.getPhase() == EPhase.BATTLE) {
-                        gi.getEffects().add(c, 1);
+                    if (e.type.isEvent() /*&& source.isIchControl()*/ && gi.getPhase() == EPhase.BATTLE) {
+                        EPlayer pl = source.isIchControl() ? EPlayer.ICH : EPlayer.OPP;
+                    	Effect.ManualModification effect = new Effect.ManualModification();
+                    	effect.m_atk.put(pl, -1);
+                    	effect.m_hit.put(pl, -1);
+                    	effect.m_icp.put(pl, -1);
+                        gi.getEffects().add(effect);
                     }
                     break;
                 case 2507:
