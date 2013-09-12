@@ -861,6 +861,11 @@ public class BattleSystem {
                             v.shiki = true;
                         }
                         break;
+                    case 1614:
+                        if (f.isLeaderSpellBattling()) {
+                            v.shiki = true;
+                        }
+                        break;
                 }
             }
 
