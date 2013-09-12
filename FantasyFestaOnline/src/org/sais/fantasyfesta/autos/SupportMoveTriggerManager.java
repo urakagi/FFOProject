@@ -126,7 +126,8 @@ public class SupportMoveTriggerManager {
             case 3316:
                 if (newController == EPlayer.ICH && isPlayerField(to)) {
                     caller.draw(2, " - " + card.getName());
-                    caller.adjustHP(2, true, false, " - " + card.getName());
+                    if (gi.getField(EPlayer.ICH).countSupport(9024) == 0)
+                        caller.adjustHP(2, true, false, " - " + card.getName());
                 }
                 break;
             case 2510:
