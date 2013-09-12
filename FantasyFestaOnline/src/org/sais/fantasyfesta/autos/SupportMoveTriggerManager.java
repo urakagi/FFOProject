@@ -107,8 +107,13 @@ public class SupportMoveTriggerManager {
             case 2712:
             case 1519:
             case 3412:
-            case 3218:
                 if (newController == EPlayer.ICH && gi.isLibraryTargetable(EPlayer.ICH) && isPlayerField(to)) {
+                    caller.peekWholeLibrary(" - " + card.getName());
+                }
+                break;
+            case 3218:
+                if (newController == EPlayer.ICH && gi.isLibraryTargetable(EPlayer.ICH) && isPlayerField(to)
+                && gi.getPhase() == EPhase.ACTIVATION) {
                     caller.peekWholeLibrary(" - " + card.getName());
                 }
                 break;
