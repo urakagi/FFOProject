@@ -213,7 +213,7 @@ public class GameInformation {
         if (targetPlayer != actPlayer && getField(targetPlayer).getLeaderAttachment().hasCard(2116)) {
             return false;
         }
-        if (targetPlayer == actPlayer && getField(targetPlayer).getLeaderAttachment().hasCard(9024)) {
+        if (type.isEvent() && getField(targetPlayer).getLeaderAttachment().hasCard(9024)) {
             return false;
         }
         if (getScene().isNo(3115) && type.isAbility()
