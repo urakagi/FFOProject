@@ -191,7 +191,9 @@ public class BattleSystem {
                         }
                         break;
                     case 3205:
-                        if (f.getCharacterLevel(31) >= 1 && !gi.isAttackPlayer(ep)) {
+                        PlayField of = gi.getField(rev(ep));
+                        if (f.getCharacterLevel(31) >= 1 && !gi.isAttackPlayer(ep)
+                        && !(of.getBattleCard().isAttached() && of.countSupport(2116) > 0)) {
                             ov.spell_targetability.sealAbility();
                         }
                         break;
@@ -856,6 +858,11 @@ public class BattleSystem {
                 switch (c.getCardNo()) {
                     case 1509:
                         if (f.getBattleCard().getInfo().isOwnedBy(15)) {
+                            v.shiki = true;
+                        }
+                        break;
+                    case 1614:
+                        if (f.isLeaderSpellBattling()) {
                             v.shiki = true;
                         }
                         break;
